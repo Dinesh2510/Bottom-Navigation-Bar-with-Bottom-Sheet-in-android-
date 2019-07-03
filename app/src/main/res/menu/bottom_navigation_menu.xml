@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav01"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Item 1" />
+        <item
+            android:id="@+id/nav02"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Item 2" />
+        <item
+            android:id="@+id/nav03"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Item 3" />
+        <item
+            android:id="@+id/nav04"
+            android:icon="@drawable/ic_attachment_black_24dp"
+            android:title="Item 4" />
+        <item
+            android:id="@+id/nav05"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="Item 5" />
+        <item
+            android:id="@+id/nav06"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Item 6" />
+        <item
+            android:id="@+id/nav07"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Item 7" />
+        <item
+            android:id="@+id/nav08"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Item 8" />
+        <item
+            android:id="@+id/nav09"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="Item 9" />
+        <item
+            android:id="@+id/nav10"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="Item 10" />
+        <item
+            android:id="@+id/nav11"
+            android:icon="@drawable/ic_local_post_office_black_24dp"
+            android:title="Item 11" />
+        <item
+            android:id="@+id/nav12"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Item 12" />
+        <item
+            android:id="@+id/nav13"
+            android:icon="@drawable/ic_watch_later_black_24dp"
+            android:title="Item 13" />
+        <item
+            android:id="@+id/nav14"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="Item 14" />
+        <item
+            android:id="@+id/nav15"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Item 15" />
+        <item
+            android:id="@+id/nav16"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Item 16" />
+    </group>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/demo" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_bottom_appbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white_24dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/bottom_App_bar"
+        app:rippleColor="#F00C0C" />
+
+    <android.support.design.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_App_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#FF6D00"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:buttonGravity="bottom|top"
+        app:fabAlignmentMode="center"
+        app:hideOnScroll="true"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+    </android.support.design.bottomappbar.BottomAppBar>
+</android.support.design.widget.CoordinatorLayout>

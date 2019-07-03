@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+        <shortcut
+            android:enabled="true"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:shortcutDisabledMessage="@string/message_disabled_message"
+            android:shortcutId="message"
+            android:shortcutLongLabel="@string/message_shortcut_long_label"
+            android:shortcutShortLabel="@string/message_shortcut_short_label"
+            tools:targetApi="n_mr1">
+
+            <!--  i have declared main activity also to maintain back stack -->
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.android_app_shortcuts_demo.MainActivity"
+                android:targetPackage="com.android_app_shortcuts_demo" />
+
+            <!-- this activity will open when this shortcut clicked -->
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.android_app_shortcuts_demo.MessageActivity"
+                android:targetPackage="com.android_app_shortcuts_demo" />
+
+            <!-- If your shortcut is associated with multiple intents, include them
+                 here. The last intent in the list determines what the user sees when
+                 they launch this shortcut. -->
+            <categories android:name="android.shortcut.conversation" />
+        </shortcut>
+        <!-- Specify more shortcuts here. -->
+    </shortcuts>
+</PreferenceScreen>
